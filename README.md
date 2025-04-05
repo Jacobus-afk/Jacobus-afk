@@ -26,7 +26,7 @@
     srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-light.svg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-light.svg" />
+  <img height=200 align="left" src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-light.svg" />
 </picture>
 
 <picture>
@@ -38,5 +38,5 @@
     srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-light.svg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-light.svg" />
+  <img height=200 align="right" src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-light.svg" />
 </picture>
