@@ -30,7 +30,8 @@ jobs:
         id: generate
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=long&hide_title=true&show=discussions_started&hide_border=true&disable_animations=false&hide_rank=true&theme=${{ matrix.theme }}
+          # options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=long&hide_title=true&show=discussions_started&hide_border=true&disable_animations=false&hide_rank=true&theme=${{ matrix.theme }}
+          options: username=${{ github.repository_owner }}
           path: grs/stats-${{ matrix.theme }}.svg
 
       - name: Upload stats-${{ matrix.theme }}
