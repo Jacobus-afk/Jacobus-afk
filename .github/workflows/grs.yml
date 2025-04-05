@@ -59,13 +59,13 @@ jobs:
         with:
           card: langs
           options: username=${{ github.repository_owner }}
-            # &layout=compact
-            # &hide_title=true
-            # &hide=tex,html
-            # &langs_count=16
-            # &hide_border=true
-            # &disable_animations=true
-            # &theme=${{ matrix.theme }}
+          # &layout=compact
+          # &hide_title=true
+          # &hide=tex,html
+          # &langs_count=16
+          # &hide_border=true
+          # &disable_animations=true
+          # &theme=${{ matrix.theme }}
           path: grs/langs-${{ matrix.theme }}.svg
           
       - name: Upload langs-${{ matrix.theme }}
