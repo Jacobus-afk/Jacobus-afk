@@ -64,7 +64,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate stats-${{ matrix.theme }}
-        uses: UlyssesZh/grs-action@master
+        uses: Jacobus-afk/grs-action@master
         id: generate
         with:
           card: langs
