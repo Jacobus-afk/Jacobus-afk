@@ -58,7 +58,7 @@ jobs:
         id: generate
         with:
           card: langs
-          options: username=${{ github.repository_owner }}
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=${{ matrix.theme }}&hide_title=true&hide=javascript&layout=compact&langs_count=8&hide_border=false&border_color=3d444d&bg_color=00000000
           # &layout=compact
           # &hide_title=true
           # &hide=tex,html
