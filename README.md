@@ -16,4 +16,26 @@
   <img height=200 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jacobus-afk&show_icons=true&theme=github_dark&hide_title=true&hide=javascript&layout=compact&langs_count=8&hide_border=false&border_color=3d444d&bg_color=00000000" />
 </a>
 
+<picture>
+  <source
+    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-dark.svg"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-light.svg"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-light.svg" />
+</picture>
 
+<picture>
+  <source
+    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-dark.svg"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-light.svg"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-light.svg" />
+</picture>
