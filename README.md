@@ -19,7 +19,7 @@
 
 <picture>
   <source
-    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-dark.svg"
+    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-github_dark.svg"
     media="(prefers-color-scheme: dark)"
   />
   <source
@@ -31,7 +31,7 @@
 
 <picture>
   <source
-    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-dark.svg"
+    srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-github_dark.svg"
     media="(prefers-color-scheme: dark)"
   />
   <source
