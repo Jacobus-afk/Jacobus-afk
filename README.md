@@ -10,10 +10,10 @@
 
 <!--<div align="center">-->
 <a href="#">
-  <img height=200 align="left" src="https://github-readme-stats.vercel.app/api?username=Jacobus-afk&show_icons=true&theme=github_dark&rank_icon=github&hide_rank=true&hide_title=true&text_bold=false&hide_border=false&bg_color=00000000" />
+  <img height=200 align="left" src="https://github-readme-stats.vercel.app/api?username=Jacobus-afk&show_icons=true&theme=github_dark&rank_icon=github&hide_rank=true&hide_title=true&text_bold=false&hide_border=false&border_color=3d444d&bg_color=00000000" />
 </a>
 <a href="#">
-  <img height=200 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jacobus-afk&show_icons=true&theme=github_dark&hide_title=true&hide=javascript&layout=compact&langs_count=8&hide_border=false&bg_color=00000000" />
+  <img height=200 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jacobus-afk&show_icons=true&theme=github_dark&hide_title=true&hide=javascript&layout=compact&langs_count=8&hide_border=false&border_color=3d444d&bg_color=00000000" />
 </a>
 
 
