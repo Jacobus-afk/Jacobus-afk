@@ -15,7 +15,7 @@ jobs:
   generate-stats:
     strategy:
       matrix:
-        theme: [light, dark]
+        theme: [light, github_dark]
     permissions:
       contents: write
     # permissions: write-all
@@ -31,7 +31,7 @@ jobs:
         with:
           card: stats
           # options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=long&hide_title=true&show=discussions_started&hide_border=true&disable_animations=false&hide_rank=true&theme=${{ matrix.theme }}
-          options: username=${{ github.repository_owner }}
+          options: username=${{ github.repository_owner }}&count_private=true&show=discussions_started,discussions_answered&theme=${{ matrix.theme }}&show_icons=true&rank_icon=github&hide_rank=true&hide_title=true&text_bold=false&hide_border=false&border_color=3d444d&bg_color=00000000
           path: grs/stats-${{ matrix.theme }}.svg
 
       - name: Upload stats-${{ matrix.theme }}
@@ -43,7 +43,7 @@ jobs:
   generate-langs:
     strategy:
       matrix:
-        theme: [light, dark]
+        theme: [light, github_dark]
     # permissions: write-all
     permissions:
       contents: write
@@ -84,7 +84,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: stats-dark
+          name: stats-github_dark
           path: grs
       - uses: actions/download-artifact@v4
         with:
@@ -92,7 +92,7 @@ jobs:
           path: grs
       - uses: actions/download-artifact@v4
         with:
-          name: langs-dark
+          name: langs-github_dark
           path: grs
       - uses: actions/download-artifact@v4
         with:
