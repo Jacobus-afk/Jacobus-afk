@@ -18,6 +18,7 @@
 -->
 
 <picture>
+  <!--
   <source
     srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-github_dark.svg"
     media="(prefers-color-scheme: dark)"
@@ -26,10 +27,12 @@
     srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-light.svg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img height=200 align="left" src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-light.svg" />
+  -->
+  <img height=200 align="left" src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/stats-catppuccin_latte.svg" />
 </picture>
 
 <picture>
+  <!--
   <source
     srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-github_dark.svg"
     media="(prefers-color-scheme: dark)"
@@ -38,5 +41,6 @@
     srcset="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-light.svg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img height=200 align="right" src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-light.svg" />
+  -->
+  <img height=200 align="right" src="https://github.com/Jacobus-afk/Jacobus-afk/raw/grs/langs-catppuccin_latte.svg" />
 </picture>
