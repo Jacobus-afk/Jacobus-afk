@@ -32,7 +32,7 @@ jobs:
           card: stats
           # options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&number_format=long&hide_title=true&show=discussions_started&hide_border=true&disable_animations=false&hide_rank=true&theme=${{ matrix.theme }}
           # options: username=${{ github.repository_owner }}&count_private=true&show=discussions_started,discussions_answered&theme=${{ matrix.theme }}&show_icons=true&rank_icon=github&hide_rank=true&hide_title=true&text_bold=false&hide_border=false&border_color=3d444d&bg_color=00000000
-          options: username=${{ github.repository_owner }}&count_private=true&show=discussions_started,discussions_answered&theme=${{ matrix.theme }}&show_icons=true&rank_icon=github&hide_rank=true&hide_title=true&text_bold=false&hide_border=false&border_color=3d444d
+          options: username=${{ github.repository_owner }}&count_private=true&show=discussions_started,discussions_answered&theme=${{ matrix.theme }}&show_icons=true&rank_icon=github&hide_rank=true&hide_title=true&text_bold=false&hide_border=false&border_color=3d444d&bg_color=00000000
           path: grs/stats-${{ matrix.theme }}.svg
 
       - name: Upload stats-${{ matrix.theme }}
