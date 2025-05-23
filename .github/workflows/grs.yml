@@ -60,7 +60,7 @@ jobs:
         with:
           card: langs
           # options: username=${{ github.repository_owner }}&show_icons=true&theme=${{ matrix.theme }}&hide_title=true&layout=compact&langs_count=8&hide_border=false&border_color=3d444d&bg_color=00000000
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=${{ matrix.theme }}&hide_title=true&layout=compact&langs_count=8&hide_border=false&border_color=3d444d
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=${{ matrix.theme }}&hide_title=true&layout=compact&langs_count=8&hide_border=false&border_color=3d444d&bg_color=00000000
           path: grs/langs-${{ matrix.theme }}.svg
           
       - name: Upload langs-${{ matrix.theme }}
